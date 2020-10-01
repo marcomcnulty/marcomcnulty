@@ -2,7 +2,13 @@ import React, { FunctionComponent as FC } from 'react';
 import iIconProps from '../../models/iIconProps';
 
 const JSIcon: FC<iIconProps> = ({ width, height }) => (
-  <svg viewBox="0 0 128 128" width={width} height={height}>
+  <svg
+    viewBox="0 0 128 128"
+    version="1"
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+  >
     <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185h-125.184z"></path>
     <path
       fill="#323330"

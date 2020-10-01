@@ -2,7 +2,13 @@ import React, { FunctionComponent as FC } from 'react';
 import iIconProps from '../../models/iIconProps';
 
 const HtmlIcon: FC<iIconProps> = ({ width, height }) => (
-  <svg viewBox="0 0 128 128" width={width} height={height}>
+  <svg
+    viewBox="0 0 128 128"
+    version="1"
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+  >
     <path
       fill="#E44D26"
       d="M27.854 116.354l-8.043-90.211h88.378l-8.051 90.197-36.192 10.033z"
