@@ -1,7 +1,7 @@
 import React, { FunctionComponent as FC } from 'react';
 import iIconProps from '../../models/iIconProps';
 
-const AWSIcon: FC<iIconProps> = ({ children, width, height }) => (
+const AWSIcon: FC<iIconProps> = ({ width, height }) => (
   <svg
     viewBox="0 0 128 128"
     version="1"
