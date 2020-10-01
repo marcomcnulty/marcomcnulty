@@ -8,6 +8,6 @@
 
 ### 🛠 Tools I'm working with at the moment
 
-<div align="center">
+<p align="center">
   <img src="https://marcomcnulty.vercel.app/api/tools">
-</div>
+</p>
