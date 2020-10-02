@@ -15,7 +15,7 @@ export async function getRandomImage() {
   const { status } = response;
 
   if (status === 422) {
-    return {};
+    return '';
   } else if (status === 200) {
     const data = await response.json();
     const rawPhoto = data.urls.raw;
