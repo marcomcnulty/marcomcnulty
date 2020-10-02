@@ -2,13 +2,13 @@
 
 <img src="https://marcomcnulty.vercel.app/random-image" alt="Random image of nature" width="849" height="279">
 
-<p style="font-size: 12px;" align="center">Pssst! Refresh the page to get a new image if you don't like the one you see!</p>
+_<p align="center">Pssst! Refresh the page to get a new image if you don't like the one you see!</p>_
 
-I'm an Irish Italian developer from London. My dev trajectory so far goes like this:
+#### I'm an Irish Italian developer from London. My dev trajectory so far goes like this:
 
 <ol>
 
-🎓 Business Degree then Higher Diploma in Software Development (Web and Cloud).
+🎓 Business BA Hons. then Higher Diploma in Software Development (Web and Cloud).
 
 ☘ 3 years at Healthcare startup wearing many hats but coding mainly with HTML, CSS, JS, TS, AngularJS.
 
