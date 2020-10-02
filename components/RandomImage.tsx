@@ -2,13 +2,13 @@ import React, { FunctionComponent as FC } from 'react';
 import ReadmeImg from './ReadmeImg';
 
 export interface Props {
-  imageUrl: string;
+  imageSrc: string;
 }
 
-export const RandomImage: FC<Props> = ({ imageUrl }) => {
+export const RandomImage: FC<Props> = ({ imageSrc }) => {
   return (
     <ReadmeImg width="855" height="280">
-      <img src={imageUrl} width="849" height="279" />
+      <img src={imageSrc} width="849" height="279" />
     </ReadmeImg>
   );
 };
