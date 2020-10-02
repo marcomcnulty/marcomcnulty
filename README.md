@@ -1,13 +1,13 @@
-# Hi there 👋
+# Hi there 👻
 
-**Now Playing** on Spotify
-
-<a align="right" href="https://now-playing-profile.marcomcnulty.vercel.app/now-playing?open">
-    <img src="https://now-playing-profile.marcomcnulty.vercel.app/now-playing" width="256" height="64" alt="Now Playing">
-</a>
+<img src="https://marcomcnulty.vercel.app/random-image" alt="Random image of London">
 
 ### 🛠 Tools I'm working with at the moment
 
 <p align="center">
   <img src="https://marcomcnulty.vercel.app/api/tools">
 </p>
+
+**Now Playing** on Spotify
+
+<img src="https://marcomcnulty.vercel.app/now-playing" width="256" height="64" alt="Now Playing">
