@@ -1,6 +1,6 @@
 # Hi there 👻
 
-<img src="https://marcomcnulty.vercel.app/random-image" alt="Random image of London">
+<img src="https://marcomcnulty.vercel.app/random-image" alt="Random image of London" width="849" height="279">
 
 ### 🛠 Tools I'm working with at the moment
 

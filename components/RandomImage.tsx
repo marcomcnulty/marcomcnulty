@@ -8,7 +8,7 @@ export interface Props {
 export const RandomImage: FC<Props> = ({ imageUrl }) => {
   return (
     <ReadmeImg width="855" height="280">
-      <img src={imageUrl} />
+      <img src={imageUrl} width="849" height="279" />
     </ReadmeImg>
   );
 };
