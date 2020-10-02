@@ -3,7 +3,7 @@ import fetch from 'isomorphic-unfetch';
 
 const accessKey = process.env.UNSPLASH_ACCESS_KEY;
 // get random image of London
-const RANDOM_IMAGE_ENDPOINT = `https://api.unsplash.com/photos/random?client_id=${accessKey}&orientation=landscape&content_filter=high&query=london`;
+const RANDOM_IMAGE_ENDPOINT = `https://api.unsplash.com/photos/random?client_id=${accessKey}&orientation=landscape&content_filter=high&query=nature`;
 
 export async function getRandomImage() {
   const response = await fetch(RANDOM_IMAGE_ENDPOINT, {
