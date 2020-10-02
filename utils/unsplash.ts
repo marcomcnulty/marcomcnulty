@@ -18,10 +18,7 @@ export async function getRandomImage() {
     return '';
   } else if (status === 200) {
     const data = await response.json();
-    const rawPhoto = data.urls.raw;
-    // resize to size suitable for GitHub profile: 854x279px
-    const resizedImg = `${rawPhoto}&w=854&h=279`;
 
-    return resizedImg;
+    return data.urls.full;
   }
 }
