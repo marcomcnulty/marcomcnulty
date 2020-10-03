@@ -19,6 +19,6 @@ export async function getRandomImage() {
   } else if (status === 200) {
     const data = await response.json();
 
-    return data.urls.full;
+    return data;
   }
 }
