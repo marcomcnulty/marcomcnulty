@@ -2,7 +2,7 @@ import React, { FunctionComponent as FC } from 'react';
 import ReadmeImg from './ReadmeImg';
 import Text from './Text';
 
-const spotifyLogo = require('../img/Spotify_Icon_RGB_Green.png');
+import * as spotifyLogo from '../img/Spotify_Icon_RGB_Green.png';
 
 export interface Props {
   cover?: string;
