@@ -12,7 +12,7 @@ export const RandomImage: FC<Props> = ({ imageSrc, name, userLink }) => {
   return (
     <ReadmeImg width="855" height="280">
       <div>
-        <img src={imageSrc} width="849" height="279" />
+        {/* <img src={imageSrc} width="849" height="279" /> */}
         <Text size="small" family="mono" color="grey">
           Photo by{' '}
           <a

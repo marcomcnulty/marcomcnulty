@@ -5,7 +5,7 @@ import { getRandomImage } from '../utils/unsplash';
 
 export default async function (req: NowRequest, res: NowResponse) {
   const imgData = await getRandomImage();
-  const imgUrl = imgData.urls.full;
+  const imgUrl = imgData.urls.regular;
   const name = imgData.user.name;
   const userLink = imgData.links.html;
 
