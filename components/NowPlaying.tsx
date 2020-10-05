@@ -2,8 +2,6 @@ import React, { FunctionComponent as FC } from 'react';
 import ReadmeImg from './ReadmeImg';
 import Text from './Text';
 
-import * as spotifyLogo from '../img/Spotify_Icon_RGB_Green.png';
-
 export interface Props {
   cover?: string;
   track: string;
@@ -136,7 +134,7 @@ export const Player: FC<Props> = ({
           paddingLeft: 4,
         }}
       >
-        <img id="cover" src={cover ?? spotifyLogo} width="48" height="48" />
+        <img id="cover" src={cover} width="48" height="48" />
         <div
           style={{
             display: 'flex',

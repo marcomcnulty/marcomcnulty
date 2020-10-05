@@ -3,6 +3,7 @@ import { renderToString } from 'react-dom/server';
 import { decode } from 'querystring';
 import { Player } from '../components/NowPlaying';
 import { nowPlaying } from '../utils/spotify';
+import * as spotifyLogo from '../img/Spotify_Icon_RGB_Green.png';
 
 export default async function (req: NowRequest, res: NowResponse) {
   const {
@@ -31,10 +32,15 @@ export default async function (req: NowRequest, res: NowResponse) {
 
   const cover = images[images.length - 1]?.url;
   let coverImg = null;
+  let buff: ArrayBuffer;
+
   if (cover) {
-    const buff = await (await fetch(cover)).arrayBuffer();
-    coverImg = `data:image/jpeg;base64,${Buffer.from(buff).toString('base64')}`;
+    buff = await (await fetch(cover)).arrayBuffer();
+  } else {
+    buff = spotifyLogo.arrayBuffer();
   }
+
+  coverImg = `data:image/jpeg;base64,${Buffer.from(buff).toString('base64')}`;
 
   const artist = (item.artists || []).map(({ name }) => name).join(', ');
   const text = renderToString(
