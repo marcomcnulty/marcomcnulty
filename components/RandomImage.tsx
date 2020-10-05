@@ -10,10 +10,10 @@ export interface Props {
 
 export const RandomImage: FC<Props> = ({ imageSrc, name, userLink }) => {
   return (
-    <ReadmeImg width="855" height="280">
+    <ReadmeImg width="855" height="300">
       <div>
-        {/* <img src={imageSrc} width="849" height="279" /> */}
-        <Text size="small" family="mono" color="grey">
+        <img src={imageSrc} width="849" height="279" />
+        <Text size="small" family="mono" color="grey" alignment="right">
           Photo by{' '}
           <a
             href={`${userLink}?utm_source=github.com/marcomcnulty&utm_medium=referral`}

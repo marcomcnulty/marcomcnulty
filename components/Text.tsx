@@ -29,6 +29,7 @@ const Text: FC<any> = ({
   family = 'default',
   color = 'default',
   size = 'default',
+  alignment,
   ...props
 }) => {
   return (
@@ -40,6 +41,7 @@ const Text: FC<any> = ({
         fontFamily: families[family],
         color: colors[color],
         fontWeight: weights[weight],
+        textAlign: alignment,
       }}
       {...props}
     >
