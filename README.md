@@ -4,17 +4,17 @@
 
 _<p align="center">Pssst! Refresh the page to get a new image if you don't like the one you see!</p>_
 
-#### I'm an Irish Italian developer from London. My dev trajectory so far goes like this:
+### I'm an Irish Italian developer from London. My dev trajectory so far goes like this:
 
 <ol>
 
-🎓 Business BA Hons. then Higher Diploma in Software Development (Web and Cloud).
+_🎓 Business BA Hons. then Higher Diploma in Software Development (Web and Cloud)._
 
-☘ 3 years at Healthcare startup wearing many hats but coding mainly with HTML, CSS, JS, TS, AngularJS.
+_☘ 3 years at Healthcare startup wearing many hats but coding mainly with HTML, CSS, JS, TS, AngularJS._
 
-🛫 Moved back to London -> Flatiron School Coding Bootcamp + Udacity Cloud Developer Nanodegree.
+_🛫 Moved back to London -> Flatiron School Coding Bootcamp + Udacity Cloud Developer Nanodegree._
 
-👀 Looking for an opportunity to join a team as a Full Stack Developer.
+_👀 Looking for an opportunity to join a great team as a Full Stack Developer._
 
 </ol>
 
@@ -24,6 +24,15 @@ _<p align="center">Pssst! Refresh the page to get a new image if you don't like 
   <img src="https://marcomcnulty.vercel.app/api/tools">
 </p>
 
-**Now Playing** on Spotify
+**Now Playing** on Spotify 🎶
 
 <img src="https://marcomcnulty.vercel.app/now-playing" width="256" height="64" alt="Now Playing">
+
+##### Credits:
+
+<p>
+  <i>Now Playing inspired by: <a href="https://github.com/natemoo-re">natemoo-re</a></i>
+
+<i>Tools section inspired by: <a href="https://github.com/andyruwruw">andyruwruw</a></i>
+
+</p>
