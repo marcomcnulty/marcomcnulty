@@ -1,5 +1,6 @@
 import React, { FunctionComponent as FC } from 'react';
 import ReadmeImg from './ReadmeImg';
+import Text from './Text';
 
 export interface Props {
   imageSrc: string;
@@ -12,7 +13,7 @@ export const RandomImage: FC<Props> = ({ imageSrc, name, userLink }) => {
     <ReadmeImg width="855" height="280">
       <div>
         <img src={imageSrc} width="849" height="279" />
-        <p>
+        <Text size="small" family="mono" color="grey">
           Photo by{' '}
           <a
             href={`${userLink}?utm_source=github.com/marcomcnulty&utm_medium=referral`}
@@ -23,7 +24,7 @@ export const RandomImage: FC<Props> = ({ imageSrc, name, userLink }) => {
           <a href="https://unsplash.com/?utm_source=github.com/marcomcnulty&utm_medium=referral">
             Unsplash
           </a>
-        </p>
+        </Text>
       </div>
     </ReadmeImg>
   );
