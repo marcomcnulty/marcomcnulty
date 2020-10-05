@@ -1,4 +1,5 @@
 import React, { FunctionComponent as FC } from 'react';
+import SpotifyIcon from './icons/SpotifyIcon';
 import ReadmeImg from './ReadmeImg';
 import Text from './Text';
 
@@ -134,7 +135,11 @@ export const Player: FC<Props> = ({
           paddingLeft: 4,
         }}
       >
-        <img id="cover" src={cover} width="48" height="48" />
+        {cover ? (
+          <img id="cover" src={cover} width="48" height="48" />
+        ) : (
+          <SpotifyIcon width="48" height="48" />
+        )}
         <div
           style={{
             display: 'flex',

@@ -18,16 +18,16 @@ export const Tools: FC<Props> = ({}) => {
   return (
     <ReadmeImg width="800" height="212">
       <div id="icon-wrapper">
-        <HtmlIcon width="70" height="70"></HtmlIcon>
-        <CSSIcon width="70" height="70"></CSSIcon>
-        <JSIcon width="70" height="70"></JSIcon>
-        <TSIcon width="70" height="70"></TSIcon>
-        <ReactIcon width="70" height="70"></ReactIcon>
-        <NodeIcon width="70" height="70"></NodeIcon>
-        <RubyIcon width="70" height="70"></RubyIcon>
-        <RailsIcon width="70" height="70"></RailsIcon>
-        <DockerIcon width="70" height="70"></DockerIcon>
-        <AWSIcon width="70" height="70"></AWSIcon>
+        <HtmlIcon width="70" height="70" />
+        <CSSIcon width="70" height="70" />
+        <JSIcon width="70" height="70" />
+        <TSIcon width="70" height="70" />
+        <ReactIcon width="70" height="70" />
+        <NodeIcon width="70" height="70" />
+        <RubyIcon width="70" height="70" />
+        <RailsIcon width="70" height="70" />
+        <DockerIcon width="70" height="70" />
+        <AWSIcon width="70" height="70" />
       </div>
 
       <style>
