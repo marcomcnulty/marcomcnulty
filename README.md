@@ -1,6 +1,6 @@
 # Hi there 👻
 
-<img src="https://marcomcnulty.vercel.app/random-image" alt="Random image of nature" width="902" height="410">
+<img src="https://marcomcnulty.vercel.app/random-image" alt="Random image of nature" width="854" height="450">
 
 _<p align="center">Pssst! Refresh the page to get a new image if you don't like the one you see!</p>_
 
