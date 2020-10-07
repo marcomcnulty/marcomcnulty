@@ -2,8 +2,6 @@
 
 <img src="https://marcomcnulty.vercel.app/random-image" alt="Random image of nature" width="854" height="450">
 
-_<p align="center">Pssst! Refresh the page to get a new image if you don't like the one you see!</p>_
-
 ### I'm an Irish Italian developer from London. My dev trajectory so far goes like this:
 
 <ol>
