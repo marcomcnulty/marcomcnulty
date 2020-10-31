@@ -11,6 +11,7 @@ import RailsIcon from './icons/RailsIcon';
 import ReactIcon from './icons/ReactIcon';
 import RubyIcon from './icons/RubyIcon';
 import TSIcon from './icons/TSIcon';
+import GraphQLIcon from './icons/GraphQLIcon';
 
 export interface Props {}
 
@@ -28,6 +29,7 @@ export const Tools: FC<Props> = ({}) => {
         <RailsIcon width="70" height="70" />
         <DockerIcon width="70" height="70" />
         <AWSIcon width="70" height="70" />
+        <GraphQLIcon width="70" height="70" />
       </div>
 
       <style>
