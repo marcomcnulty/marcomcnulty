@@ -3,7 +3,7 @@ import iIconProps from '../../models/iIconProps';
 
 const GraphQLIcon: FC<iIconProps> = ({ width, height }) => (
   <svg
-    viewBox="0 0 128 128"
+    viewBox="0 0 48 48"
     version="1"
     xmlns="http://www.w3.org/2000/svg"
     width={width}
